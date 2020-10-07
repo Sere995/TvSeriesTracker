@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+	
+	<title>SerieTv Tracking</title>
+	
+	
+	<!-- Bootstrap -->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+	
+	<!-- Nostro CSS -->
+	<link rel="stylesheet" type="text/css" href="CSS/styles.css">
+	
+  	<!-- Google Fonts -->
+  	<link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+
+<link href="https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Imprima&family=The+Girl+Next+Door&display=swap" rel="stylesheet">
+  
+<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+
+	<!-- JQUERY Popper e Bootstrap-->
+	
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+	
+	<!-- Nostri Javascript -->
+	<script type="text/javascript" src="JS/scripts.js"></script>
+	
+	<script type="text/javascript" src="JS/home.js"></script>
+
+	<script type="text/javascript" src="JS/popolari.js"></script>
+	<script type="text/javascript" src="JS/navbar.js"></script>
+	<script type="text/javascript" src="JS/login.js"></script>
+
+	<script type="text/javascript" src="JS/logout.js"></script>
+	<script type="text/javascript" src="JS/registrati.js"></script>
+	<script type="text/javascript" src="JS/cerca.js"></script>
+	<script type="text/javascript" src="JS/dettagliSerie.js"></script>
+	
+		<script type="text/javascript" src="JS/profilo.js"></script>
+</head>
+<body>
+
+<!--Navigation bar-->
+
+
+
+ 	<div id="nav"></div> 
+
+	<script>
+		navbar();
+		
+		
+	</script>
+	<!--  
+	<script>
+		$.get("nav.html", function(data){
+    		$("#nav-placeholder").replaceWith(data);
+		});
+	</script>
+	-->
+	
+	<!-- Mostro le serie -->
+	
+	<div class="container" id="id_container">
+
+<div class="titoloLabel"><h1 id="serieTitoloLabel"></h1></div>
+	<div class="row" id="contentPanel">
+	
+		
+			<!-- questo è riempito dal js -->
+		
+		
+		</div>
+		
+	</div>
+
+<script>
+funzioneHome();
+	</script>
+
+</body>
+</html>

@@ -1,0 +1,110 @@
+ body{
+	background-color: DarkSeaGreen;
+}
+
+div.btn{
+	white-space: nowrap;
+   text-align: center;
+}
+
+
+.poster{
+	max-width: 100%;
+	border: 2px white solid;
+}
+
+.navbar-brand{
+	font-size: 20px;
+	font-weight: bold;
+	color: white;
+}
+
+.voto{
+	font-weight: bold;
+}
+
+.release{
+	font-weight: bold;
+}
+
+.eachSerie{
+	background-color: DarkSeaGreen;
+	color: white;
+}
+
+#serieTitoloLabel{
+ color: white;
+}
+
+div.btn-icon {
+  background-color: Orange;
+  border: none;
+  color: white !important; 
+  padding: 12px 16px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.center {
+  margin: auto;
+  width: 50%;
+  border: 3px solid green;
+  padding: 10px;
+}
+
+.centrato {
+  text-align: center;
+}
+
+.btnModal{
+	background-color: DarkSeaGreen;
+	margin-bottom: 35px;
+	border: black;
+}
+.modal-content{
+	color: black;
+	padding: 2px;
+	min-width: 656px;
+}
+.seriePosterModal{
+	padding: 12px;
+}
+.nomeSerie{
+	font-size: 30px;
+	font-weight: bold;
+	font-family: 'Carrois Gothic SC', sans-serif;
+}
+
+.titoloDettagli{
+	font-family: 'Imprima', sans-serif;
+        font-size: 80px;
+}
+.homeFont{
+	 font-family: 'Fredoka One', sans-serif;
+        font-size: 18px;
+}
+.homeFont2{
+	 font-family: 'Fredoka One', cursive;
+        font-size: 30px;
+}
+div.welcome{
+	 text-align: center;
+}
+.welcomeFont{
+	font-family: 'The Girl Next Door', cursive;
+	  font-size: 50px;
+	  margin: auto;
+  width: 60%;
+  border: 3px solid DarkSeaGreen;
+
+	color: DarkSeaGreen;
+
+	padding: 15px;
+}
+.btn-primary{
+	margin: 5px;
+	padding: 5px;
+	background: transparent;
+	color: #5EADFF;
+	border: 1px solid #5EADFF; 
+}
